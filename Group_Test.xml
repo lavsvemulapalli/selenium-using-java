@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Fgh by groups">
+  <test verbose="2" name="GRP-A1">
+    <groups>
+      <run>
+        <exclude name="A1"/>
+        <include name="g1"/>
+        
+      </run>
+    </groups>
+    <classes>
+      <class name="klm.Group_Test"/>
+      <class name="klm.Group_Test1"/>
+    </classes>
+  </test> <!-- GRP-A1 -->
+</suite> <!-- Fgh by groups -->

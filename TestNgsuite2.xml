@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Default suite" parallel="tests">
+
+  
+ 
+
+  <test verbose="2" name="sanity21">
+  <parameter name="browse1" value="GC"/>
+    <classes>
+      <class name="klm.BrowserDemo"/>
+      <class name="klm.LinkDemo"/>
+      
+      
+    </classes>
+  </test> 
+  <test verbose="2" name="sanity22">
+  <parameter name="browse1" value="FF"/>
+    <classes>
+      <class name="klm.BrowserDemo"/>
+      <class name="klm.LinkDemo"/>
+    </classes>
+  </test> 
+</suite> 

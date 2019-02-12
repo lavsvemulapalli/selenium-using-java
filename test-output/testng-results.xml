@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56295" started-at="2017-12-13T05:48:01Z" finished-at="2017-12-13T05:48:57Z">
+    <groups>
+    </groups>
+    <test name="sanity" duration-ms="56295" started-at="2017-12-13T05:48:01Z" finished-at="2017-12-13T05:48:57Z">
+      <class name="klm.AJDemo">
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:klm.AJDemo@d70c109]" name="SetUp" is-config="true" duration-ms="12011" started-at="2017-12-13T18:48:01Z" finished-at="2017-12-13T18:48:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="banTest()[pri:0, instance:klm.AJDemo@d70c109]" name="banTest" duration-ms="11590" started-at="2017-12-13T18:48:13Z" finished-at="2017-12-13T18:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- banTest -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:klm.AJDemo@d70c109]" name="tearDowm" is-config="true" duration-ms="628" started-at="2017-12-13T18:48:24Z" finished-at="2017-12-13T18:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- klm.AJDemo -->
+      <class name="klm.SliderDemo">
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:klm.SliderDemo@17ed40e0]" name="SetUp" is-config="true" duration-ms="6154" started-at="2017-12-13T18:48:25Z" finished-at="2017-12-13T18:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="slider()[pri:0, instance:klm.SliderDemo@17ed40e0]" name="slider" duration-ms="6025" started-at="2017-12-13T18:48:31Z" finished-at="2017-12-13T18:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:klm.SliderDemo@17ed40e0]" name="tearDowm" is-config="true" duration-ms="421" started-at="2017-12-13T18:48:37Z" finished-at="2017-12-13T18:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- klm.SliderDemo -->
+      <class name="klm.LinkText1">
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:klm.LinkText1@50675690]" name="SetUp" is-config="true" duration-ms="6807" started-at="2017-12-13T18:48:37Z" finished-at="2017-12-13T18:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="link1()[pri:0, instance:klm.LinkText1@50675690]" name="link1" duration-ms="11430" started-at="2017-12-13T18:48:44Z" finished-at="2017-12-13T18:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link1 -->
+        <test-method status="PASS" signature="tearDowm()[pri:0, instance:klm.LinkText1@50675690]" name="tearDowm" is-config="true" duration-ms="1209" started-at="2017-12-13T18:48:56Z" finished-at="2017-12-13T18:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowm -->
+      </class> <!-- klm.LinkText1 -->
+    </test> <!-- sanity -->
+  </suite> <!-- Default suite -->
+</testng-results>
